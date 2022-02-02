@@ -1,0 +1,41 @@
+/* universal < element < class < id */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.germany {
+  height: 50px;
+  width: 300px;
+}
+
+#top {
+  background-color: black;
+}
+
+#middle {
+  background-color: red;
+}
+
+#bottom {
+  background-color: yellow;
+}
+
+.france {
+  display: inline-block;
+  height: 150px;
+  width: 100px;
+}
+
+#left {
+  background-color: dodgerblue;
+}
+
+#centre {
+  background-color: white;
+}
+
+#right {
+  background-color: red;
+}
